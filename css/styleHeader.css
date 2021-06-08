@@ -1,0 +1,16 @@
+header b{
+	position: absolute;
+	padding: 3px;
+	float: left;
+	
+	margin-top: 0;
+	font-family: 'Alfa Slab One',cursive;
+	color: rgb(212,177,123);
+    width:90%;
+    font-weight:800px;
+}
+
+    span{
+	color: rgb(95, 66, 31);
+
+    }

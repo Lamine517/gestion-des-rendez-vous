@@ -1,0 +1,179 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transform: scale(1);
+    transition: transform 0.1s ease-out;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 251, 231, 0.755);
+} */
+
+/* NAV BARRE */
+
+/* header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(20, 63, 106);
+} */
+
+header h1{
+    color: #FDFD96;
+}
+
+/* nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* nav a:hover{
+    color: #FDFD96;
+    transform: scale(1.1);
+} */
+
+.search_input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* SECTIONS */
+.resultat{
+    border-collapse: collapse;
+    border: solid 1px;
+    /* border-style: outset; */
+    /* margin-left:200px;
+    margin-top: 15px; */
+    width: auto;
+}
+table{
+    border-collapse: collapse;
+    color: white;
+    font-family: sans-serif;
+    width: 100%;
+}
+table , th , td {
+    border: 0.1px  black;
+    text-align: center;
+}
+th,td{
+    padding: 5px;
+}
+tr:nth-child(odd){
+    background: white;
+    color: black;
+}
+tr:nth-child(even){
+    background: darkgray;
+}
+
+
+main{
+    display: flex;
+    
+}
+
+section h1{
+    color:rgb(20, 63, 106);
+}
+.resultat, h1{
+    color:rgb(20, 63, 106);
+}
+
+.ajout_apprenant{
+    width: 40%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.field:first-child{
+    margin-top: 20px;
+}
+
+.field{
+    margin-bottom: 20px;
+}
+
+.input_field{
+    width: 50%;
+    padding: 10px 15px;
+}
+.option_field{
+    width: 50%;
+    padding: 10px 15px;
+}
+
+.btn_add{
+    display: block;
+    width: 50%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #175adf;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size:1rem;
+    font-weight: bold;
+}
+.btn_del{
+    display: block;
+    width: 50%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 30, 30);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size:1rem;
+    font-weight: bold;
+}
+.btn-edit{
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #175adf;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size:1rem;
+    font-weight: bold;
+}
+.btn-del{
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 30, 30);
+    outline: none;
+    border: none;
+    color: white;
+    font-size:1rem;
+    font-weight: bold;
+}
+.btn-del a {
+    color: white;
+    text-decoration: none; 
+}
+.btn-edit a {
+    color: white;
+    text-decoration: none; 
+}
